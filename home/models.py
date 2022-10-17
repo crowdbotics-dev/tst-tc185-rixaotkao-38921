@@ -5,3 +5,7 @@ from django.db import models
 class Addressjjpzxiponv(models.Model):
     "Generated Model"
     street = models.BigIntegerField()
+    ca = models.BigIntegerField(
+        null=True,
+        blank=True,
+    )
